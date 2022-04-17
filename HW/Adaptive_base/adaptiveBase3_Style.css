@@ -1,0 +1,51 @@
+.a {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.box {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bcd {
+    display: flex;
+}
+.b, .c, .d {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+
+.efg {
+    display: flex;
+}
+.e, .f, .g {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(140, 95, 181);
+}
+
+.h {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(4, 52, 94);
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        flex-direction: column;
+    }
+    .a {
+        height: 40px;
+    }
+    .b,.c,.d, .e, .f, .g {
+        height: 80px;
+    }
+}
